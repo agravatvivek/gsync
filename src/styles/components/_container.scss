@@ -1,0 +1,21 @@
+.container-fullwidth {
+    /* 
+        maintain minimul height of the body part
+        this class is used in app.js file
+    */
+    min-height: 55vh;
+}
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size;
+}
+
+.container-dark {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $s-size;
+    display: flex;
+    justify-content: space-around;
+}
